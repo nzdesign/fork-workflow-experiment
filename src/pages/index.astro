@@ -28,6 +28,9 @@ const posts = await getCollection("blog", excludeDrafts).then(sortBlogPosts);
       <p class="text-lg leading-7 text-gray-500 dark:text-gray-400">
         {t("siteMetadata.description")}
       </p>
+      <p class="text-lg leading-7 text-gray-500 dark:text-gray-400">
+        Some Update from nzrdesign
+      </p>
     </div>
     <ul class="divide-y divide-gray-200 dark:divide-gray-700">
       {!posts.length && t("pages.home.noPosts")}
